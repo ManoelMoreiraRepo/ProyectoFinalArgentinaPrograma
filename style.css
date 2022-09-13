@@ -1,60 +1,31 @@
     * {
         margin: 0;
         padding: 0;
-        font-family: "Bowlby One SC", cursive;
+        box-sizing: border-box;
     }
     
     body {
-        height: 100vh;
+        /*height: 100vh;*/
         background-color: rgb(0, 0, 0);
         display: flex;
         justify-content: center;
         align-items: center;
     }
     
-    .login {
-        height: 550px;
-        position: absolute;
+    header {
+        height: 100vh;
+        /* 02 */
+        background-image: linear-gradient(to top, rgba(240, 8, 46, 0.842) 0%, hsla(218, 80%, 18%, 0.514) 100%), url(img/tech-red.jpg);
+        /*background-color: ;*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     
-    .formulario {
-        width: 300px;
-        position: absolute;
-        background-color: #fff;
-        border: 5px solid #8f4790;
-        border-radius: 10px;
-        padding: 30px 60px;
-        top: 290px;
-        left: 50%;
-        transform: translate(-50%);
-        text-align: center;
+    header h1 {
+        color: rgb(247, 247, 191);
     }
     
-    .formulario input,
-    label,
-    button {
-        display: block;
-        width: 100%;
-        margin: 5px 0;
-    }
-    
-    .formulario input {
-        height: 40px;
-        border: 2px solid #8f4790;
-        border-radius: 10px;
-        padding: 0 8px;
-    }
-    
-    .formulario button {
-        margin-top: 20px;
-        cursor: pointer;
-        border: none;
-        height: 40px;
-        background-color: #8f4790;
-        box-shadow: 1px 1px 2px #000;
-        color: #fff;
-    }
-    
-    .formulario button:hover {
-        background-color: #8f4790
+    body .experience {
+        background-image: url(img/markus-spiske-Skf7HxARcoc-unsplash.jpg);
     }
