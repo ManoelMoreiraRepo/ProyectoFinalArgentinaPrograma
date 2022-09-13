@@ -15,10 +15,9 @@
     header {
         height: 100vh;
         /* 02 */
-        background-image: linear-gradient(to top, rgba(240, 8, 46, 0.842) 0%, hsla(218, 80%, 18%, 0.514) 100%), url(img/tech-red.jpg);
-        /*background-color: ;*/
+        background-image: linear-gradient(to top, rgba(240, 8, 46, 0.842) 0%, hsla(218, 80%, 18%, 0.514) 100%), ;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: ;
         background-size: cover;
     }
     
